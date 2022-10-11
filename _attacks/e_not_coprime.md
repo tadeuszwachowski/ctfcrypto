@@ -5,7 +5,7 @@ title: "e and phi(n) not coprime"
 
 ## RSA
 
-* $$e$$ and $$\varphi(n)$$ not coprime
+* \(e\) and \(\varphi(n)\) not coprime
 
 	```python
 	from Crypto.Util.number import long_to_bytes as l2b, bytes_to_long as b2l, inverse
