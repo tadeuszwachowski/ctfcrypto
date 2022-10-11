@@ -11,10 +11,10 @@ If
 $$ n = p_1^k_1 p_2^k_2 \hdots p_r^k_r $$
 
 then 
-$$ \begin{align}
+$$ \begin{equation}\begin{split}
 	c 	&\equiv m^e \pmod{n} \\
-		&\equiv m^e \pmod{p_1^k_1 p_2^k_2 \hdots p_r^k_r}
-\end{align} $$
+		&\equiv m^e \pmod{p_1^{k_1} p_2^{k_2} \hdots p_r^{k_r}}
+\end{split}\end{equation} $$
 <br/><br/>
 because 
 $$ \begin{align} 
