@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{site.baseurl}}/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="sW748KsFgEpJDeh9-3VlVRi3Y8wj2dREbofxB8rGsys" />
+    <title>/home/twachowski{{site.baseurl}}{{page.url}}</title>
+</head>
+<body>
+    <div id="navbar">
+		<p id="helpline"> <b>
+			<a href="{{site.url}}"> /home</a>
+			<a href="#"> #top</a>
+			<a href="../">  ../up</a>
+		</b></p>
+	</div>
+    <div id="menu">
+        <a href="javascript:void(0);" class="icon" onclick="burger()"><i class="fa fa-bars"></i></a>
+    </div>
+
+    <div id="top"><p><span class="ps">/home/twachowski{{ site.baseurl }}{{ page.url }} # </span> ls </p></div>    
+    <div id="content">
+        <div id="md-place">
+            {{content}}
+        </div>
+    </div>
+</body>
+
+<script>
+    function burger() {
+      var x = document.getElementById("navbar");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+
+</html>

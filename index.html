@@ -1,0 +1,19 @@
+---
+layout: writeup
+title: ctfcrypto
+---
+<h1 align="center">ctfcrypto</h1>
+
+<h2>Table of contents</h2>
+
+{% for w in site.attacks %}
+	<a href="#{{w.title}}" font-size="20px">{{w.title}}</a><br/>
+{% endfor %}
+
+{% for w in site.attacks %}
+	<br>
+	<br>
+	<br>
+	<p id="{{w.title}}">{{ w.content | markdownify }}</p>
+{% endfor %}
+
