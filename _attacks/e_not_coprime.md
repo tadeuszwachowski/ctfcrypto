@@ -5,7 +5,7 @@ title: "e and phi(n) not coprime"
 
 ## e and phi(n) not coprime
 
-	If $$e$$ and $$\varphi(n)$$ not coprime - $$gcd(e,phi(n)) \neq 1$$ - then, we must find $$d$$ in other way.
+	* If $$e$$ and $$\varphi(n)$$ not coprime - $$gcd(e,phi(n)) \neq 1$$ - then, we must find $$d$$ in other way.
 
 	If 
 		$$ n = p_1^k_1 p_2^k_2 \hdots p_r^k_r $$
@@ -24,6 +24,7 @@ title: "e and phi(n) not coprime"
 	And then
 		$$ \varphi(p) = p-1 \vee \varphi(q) = q-1 $$
 		$$ d \equiv e^{-1} mod \varphi(p) \vee d \equiv e^{-1} mod \varphi(q) $$
+
 
 	```python
 	from Crypto.Util.number import long_to_bytes as l2b, bytes_to_long as b2l, inverse
