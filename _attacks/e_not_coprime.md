@@ -8,12 +8,14 @@ title: "e and phi(n) not coprime"
 If $e$ and $\varphi(n)$ not coprime - $gcd(e,phi(n)) \neq 1$ - then, we must find $d$ in other way.
 
 If 
-$$ n = p_1^k_1 p_2^k_2 \hdots p_r^k_r $$
+
+$$ n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r} $$
 
 then 
+
 $$ \begin{equation}\begin{split}
 	c 	&\equiv m^e \pmod{n} \\
-		&\equiv m^e \pmod{p_1^{k_1} p_2^{k_2} \hdots p_r^{k_r}}
+		&\equiv m^e \pmod{p_1^{k_1} p_2^{k_2} \dots p_r^{k_r}}
 \end{split}\end{equation} $$
 <br/><br/>
 because 
