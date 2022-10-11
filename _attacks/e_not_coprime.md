@@ -20,6 +20,12 @@ $$\begin{array}{ll}
 		&\equiv m^e \pmod{p_1^{k_1} p_2^{k_2} \dots p_r^{k_r}} \\
 \end{array}$$
 </div>
+and 
+<div>
+$$
+c 	&\equiv m^e \pmod{p_i^{k_i}} \\
+$$
+</div>
 because
 <div>
 $$\begin{array}{ll}
