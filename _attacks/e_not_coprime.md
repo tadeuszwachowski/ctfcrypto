@@ -8,11 +8,11 @@ title: "e and phi(n) not coprime"
 If $e$ and $\varphi(n)$ not coprime - $gcd(e,\varphi(n)) \neq 1$ - then, we must find $d$ in other way.
 
 If 
-
+<div>
 $$
 n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r}
 $$
-
+</div>
 then 
 <div>
 $$\begin{array}{ll}
