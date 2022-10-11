@@ -9,7 +9,7 @@ If $e$ and $\varphi(n)$ not coprime - $gcd(e,phi(n)) \neq 1$ - then, we must fin
 
 If 
 
-$$ n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r} $$
+$$ \begin{equation} n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r} \end{equation} $$
 
 then 
 
@@ -17,18 +17,20 @@ $$ \begin{equation}\begin{split}
 	c 	&\equiv m^e \pmod{n} \\
 		&\equiv m^e \pmod{p_1^{k_1} p_2^{k_2} \dots p_r^{k_r}}
 \end{split}\end{equation} $$
-<br/><br/>
-because 
-$$ \begin{align} 
+
+because
+
+$$ \begin{equation}\begin{split} 
 	a \equiv b \pmod{pq} 	&\Rightarrow a-b = k(pq) \\
 							&\Rightarrow a-b = (kq)p \wedge a-b = (kp)q \\
 							&\Rightarrow a-b \equiv 0 \pmod{p} \wedge a-b \equiv 0 \pmod{q} \\
 							&\Rightarrow a \equiv b \pmod{p} \wedge a \equiv b \pmod{q}
-\end{align} $$
-<br/><br/>
+\end{split}\end{equation} $$
+
 and then 
-$$ \varphi(p) = p-1 \vee \varphi(q) = q-1 \\ $$
-$$ d \equiv e^{-1} \pmod{\varphi(p)} \vee d \equiv e^{-1} \pmod{\varphi(q)} $$
+
+$$ \begin{equation} \varphi(p) = p-1 \vee \varphi(q) = q-1 \end{equation} $$
+$$ \begin{equation} d \equiv e^{-1} \pmod{\varphi(p)} \vee d \equiv e^{-1} \pmod{\varphi(q)} \end{equation} $$
 
 
 ```python
