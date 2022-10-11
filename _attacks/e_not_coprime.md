@@ -5,7 +5,7 @@ title: "e and phi(n) not coprime"
 
 ## e and phi(n) not coprime
 
-If $e$ and $\varphi(n)$ not coprime - $gcd(e,phi(n)) \neq 1$ - then, we must find $d$ in other way.
+If $e$ and $\varphi(n)$ not coprime - $gcd(e,\varphi(n)) \neq 1$ - then, we must find $d$ in other way.
 
 If 
 
