@@ -23,7 +23,7 @@ $$\begin{array}{ll}
 and 
 <div>
 $$
-c 	&\equiv m^e \pmod{p_i^{k_i}} \\
+c \equiv m^e \pmod{p_i^{k_i}}
 $$
 </div>
 because
