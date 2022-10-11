@@ -9,7 +9,7 @@ If $e$ and $\varphi(n)$ not coprime - $gcd(e,\varphi(n)) \neq 1$ - then, we must
 
 If 
 
-\( \begin{equation} n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r} \end{equation} \)
+$$ n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r} $$
 
 then 
 
