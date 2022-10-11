@@ -7,13 +7,15 @@ title: "e and phi(n) not coprime"
 
 If $e$ and $\varphi(n)$ not coprime - $gcd(e,phi(n)) \neq 1$ - then, we must find $d$ in other way.
 
-If $$ n = p_1^k_1 p_2^k_2 \hdots p_r^k_r $$
+If 
+$$ n = p_1^k_1 p_2^k_2 \hdots p_r^k_r $$
 
-then $$ \begin{align}
+then 
+$$ \begin{align}
 	c 	&\equiv m^e \pmod{n} \\
 		&\equiv m^e \pmod{p_1^k_1 p_2^k_2 \hdots p_r^k_r}
 \end{align} $$
-
+<br/><br/>
 because 
 $$ \begin{align} 
 	a \equiv b \pmod{pq} 	&\Rightarrow a-b = k(pq) \\
@@ -21,8 +23,9 @@ $$ \begin{align}
 							&\Rightarrow a-b \equiv 0 \pmod{p} \wedge a-b \equiv 0 \pmod{q} \\
 							&\Rightarrow a \equiv b \pmod{p} \wedge a \equiv b \pmod{q}
 \end{align} $$
-
-and then $$ \varphi(p) = p-1 \vee \varphi(q) = q-1 $$
+<br/><br/>
+and then 
+$$ \varphi(p) = p-1 \vee \varphi(q) = q-1 \\ $$
 $$ d \equiv e^{-1} \pmod{\varphi(p)} \vee d \equiv e^{-1} \pmod{\varphi(q)} $$
 
 
