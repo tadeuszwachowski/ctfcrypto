@@ -38,8 +38,8 @@ $$\begin{array}{ll}
 and then 
 <div>
 $$\begin{array}{ll} 
-\varphi(p) = p-1 \vee \varphi(q) = q-1 \\
-d \equiv e^{-1} \pmod{\varphi(p)} \vee d \equiv e^{-1} \pmod{\varphi(q)} \\
+\varphi(p) = p-1 &\vee \varphi(q) = q-1 \\
+d \equiv e^{-1} \pmod{\varphi(p)} &\vee d \equiv e^{-1} \pmod{\varphi(q)} \\
 \end{array}$$
 </div>
 
