@@ -9,7 +9,7 @@ If $e$ and $\varphi(n)$ not coprime - $gcd(e,phi(n)) \neq 1$ - then, we must fin
 
 If 
 
-$$ \begin{equation} n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r} \end{equation} $$
+$ \begin{equation} n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r} \end{equation} $
 
 then 
 
@@ -29,8 +29,8 @@ $$ \begin{equation}\begin{split}
 
 and then 
 
-$$ \begin{equation} \varphi(p) = p-1 \vee \varphi(q) = q-1 \end{equation} $$
-$$ \begin{equation} d \equiv e^{-1} \pmod{\varphi(p)} \vee d \equiv e^{-1} \pmod{\varphi(q)} \end{equation} $$
+$$ \begin{equation} \varphi(p) = p-1 \vee \varphi(q) = q-1 \\
+d \equiv e^{-1} \pmod{\varphi(p)} \vee d \equiv e^{-1} \pmod{\varphi(q)} \end{equation} $$
 
 
 ```python
