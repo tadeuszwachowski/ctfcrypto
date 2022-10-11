@@ -13,19 +13,19 @@ If
 
 then
 
-	$$ \begin{align}
-		c 	&\equiv m^e \pmod{n} \\
-			&\equiv m^e \pmod{p_1^k_1 p_2^k_2 \hdots p_r^k_r}
-	\end{align} $$
+$$ \begin{align}
+	c 	&\equiv m^e \pmod{n} \\
+		&\equiv m^e \pmod{p_1^k_1 p_2^k_2 \hdots p_r^k_r}
+\end{align} $$
 
 because
 
-	$$ \begin{align} 
-		a \equiv b \pmod{pq} 	&\Rightarrow a-b = k(pq) \\
-								&\Rightarrow a-b = (kq)p \wedge a-b = (kp)q \\
-								&\Rightarrow a-b \equiv 0 \pmod{p} \wedge a-b \equiv 0 \pmod{q} \\
-								&\Rightarrow a \equiv b \pmod{p} \wedge a \equiv b \pmod{q}
-	\end{align} $$
+$$ \begin{align} 
+	a \equiv b \pmod{pq} 	&\Rightarrow a-b = k(pq) \\
+							&\Rightarrow a-b = (kq)p \wedge a-b = (kp)q \\
+							&\Rightarrow a-b \equiv 0 \pmod{p} \wedge a-b \equiv 0 \pmod{q} \\
+							&\Rightarrow a \equiv b \pmod{p} \wedge a \equiv b \pmod{q}
+\end{align} $$
 
 And then
 
