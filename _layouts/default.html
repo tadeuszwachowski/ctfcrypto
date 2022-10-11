@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="sW748KsFgEpJDeh9-3VlVRi3Y8wj2dREbofxB8rGsys" />
     <title>/home/twachowski{{site.baseurl}}{{page.url}}</title>
+    {% if page.use_math %}
+    {% include mathjax_support.html %}
+    {% endif %}
 </head>
 <body>
     <div id="navbar">
