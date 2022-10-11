@@ -5,14 +5,14 @@ title: "Franklin Reiter"
 
 ## Franklin Reiter
 
-If $e$ and $\varphi(n)$ not coprime - $gcd(e,\varphi(n)) \neq 1$ - then, we must find $d$ in other way.
+If $n$,$e$ - known and $c_1,c_2$ - differ by a known value (eg. flag is the padding), we can perform the Franklin Reiter attack.
 
 ```python
 # use SageMath
 
 from Crypto.Util.number import long_to_bytes, bytes_to_long
 
-# r is the known difference
+# r - known difference
 # c1 - smaller ciphertext
 # c2 - larger ciphertext (c1+r in some way)
 def franklinReiter(n,e,r,c1,c2):
@@ -34,8 +34,8 @@ def compositeModulusGCD(a, b):
 # c2 = pow(m + r, e, n)
 
 def frbrute(n,e,r,c1,c2,difference=b"aaaaaaaaaa",known_pt=b"flag{"):
-    for i in range(150):
-        r = bytes_to_long(difference)*(256**i)
+    for i in range(150): # flag (padding) length may vary - thus i in range(150)
+        r = bytes_to_long(difference)*(256**i) # leave i space for the padding
         flag = franklinReiter(n,e,r,c1,c2)
         flag_text = long_to_bytes(flag)
         if known_pt in flag_text:
