@@ -44,10 +44,10 @@ d \equiv e^{-1} \pmod{\varphi(p)} &\vee d \equiv e^{-1} \pmod{\varphi(q)} \\
 </div>
 
 ```python
-from Crypto.Util.number import long_to_bytes as l2b, bytes_to_long as b2l, inverse
-from math import lcm, gcd
+from Crypto.Util.number import long_to_bytes, inverse
+from math import gcd
 
-
+# returns private key - d and n
 def non_coprime(e,p,q):
 	n = p*q
 	phi = (p-1)*(q-1)
@@ -75,6 +75,6 @@ print(gcd(e,phi)) # e and phi are not coprime if not 1
 
 d, n = non_coprime(e,p,q)
 
-print(l2b(pow(ct,d,n)))
+print(long_to_bytes(pow(ct,d,n)))
 ```
 
