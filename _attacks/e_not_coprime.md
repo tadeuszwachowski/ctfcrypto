@@ -9,38 +9,30 @@ If $e$ and $\varphi(n)$ not coprime - $gcd(e,\varphi(n)) \neq 1$ - then, we must
 
 If 
 
-\[ 
-n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r} 
-\]
+$$n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r}$$
 
 then 
 
-\[ 
-\begin{array}{ll}
+$$\begin{array}{ll}
 	c 	&\equiv m^e \pmod{n} \\
 		&\equiv m^e \pmod{p_1^{k_1} p_2^{k_2} \dots p_r^{k_r}} \\
-\end{array}
-\]
+\end{array}$$
 
 because
 
-\[ 
-\begin{array}{ll}
+$$\begin{array}{ll}
 	a \equiv b \pmod{pq} 	&\Rightarrow a-b = k(pq) \\
 							&\Rightarrow a-b = (kq)p \wedge a-b = (kp)q \\
 							&\Rightarrow a-b \equiv 0 \pmod{p} \wedge a-b \equiv 0 \pmod{q} \\
 							&\Rightarrow a \equiv b \pmod{p} \wedge a \equiv b \pmod{q} \\
-\end{array} 
-\]
+\end{array}$$
 
 and then 
 
-\[ 
-\begin{array}{ll} 
-	\varphi(p) = p-1 \vee \varphi(q) = q-1 \\
-	d \equiv e^{-1} \pmod{\varphi(p)} \vee d \equiv e^{-1} \pmod{\varphi(q)} \\
-\end{array} 
-\]
+$$\begin{array}{ll} 
+\varphi(p) = p-1 \vee \varphi(q) = q-1 \\
+d \equiv e^{-1} \pmod{\varphi(p)} \vee d \equiv e^{-1} \pmod{\varphi(q)} \\
+\end{array}$$
 
 
 ```python
