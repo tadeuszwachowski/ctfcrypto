@@ -3,7 +3,9 @@ layout: writeup
 title: "e and phi(n) not coprime"
 ---
 
-## $$e$$ and $$\varphi(n)$$ not coprime
+## 
+
+	* $$e$$ and $$\varphi(n)$$ not coprime - $$gcd(e,phi(n)) \neq 1$$
 
 	```python
 	from Crypto.Util.number import long_to_bytes as l2b, bytes_to_long as b2l, inverse
